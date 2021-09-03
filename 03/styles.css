@@ -14,10 +14,13 @@ h1 {
   line-height: 20pt;
 }
 
+
+
 p.subheader {
   font-weight: bold;
-  color:#593d87;
+  color:red;
 }
+
 
 img {
   padding: 3pt;
@@ -29,11 +32,11 @@ a {
 }
 
 a:link, a:visited {
-  color:#8094d6;	
+  color:#8094d6;
 }
 
 a:hover, a:active {
-  color:#FF9933;	
+  color:#FF9933;
 }
 
 footer {
