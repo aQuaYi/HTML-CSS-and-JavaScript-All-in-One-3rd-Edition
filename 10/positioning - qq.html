@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Positioning the Color Blocks</title>
+	<style type="text/css">
+		div {
+			position: absolute;
+			box-sizing: border-box;
+			width: 480px;
+			height: 180px;
+			border: 5px solid #000;
+			color: black;
+			font-weight: bold;
+			text-align: center;
+		}
+
+		div#d1 {
+			background-color: red;
+			left: 0px;
+			top: 0px;
+			z-index: 0;
+		}
+
+		div#d2 {
+			background-color: green;
+			left: 80px;
+			top: 30px;
+			z-index: 3;
+		}
+
+		div#d3 {
+			background-color: blue;
+			left: 160px;
+			top: 60px;
+			z-index: 2;
+		}
+
+		div#d4 {
+			background-color: yellow;
+			left: 240px;
+			top: 90px;
+			z-index: 1;
+		}
+	</style>
+
+</head>
+
+<body>
+	<div id="d1">DIV #1</div>
+	<div id="d2">DIV #2</div>
+	<div id="d3">DIV #3</div>
+	<div id="d4">DIV #4</div>
+</body>
+
+</html>
